@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane hgap="8.0" prefHeight="200.0" prefWidth="842.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label prefHeight="17.0" prefWidth="160.0" text="St.Peters Square Vatican City" />
+      <Label text="Parugia Italy" GridPane.columnIndex="3" />
+      <Label text="Valencia " GridPane.columnIndex="2" />
+      <Label text="Ancien Ruins of Machu Pichu" GridPane.columnIndex="1" />
+      <ImageView fitHeight="168.0" fitWidth="170.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="1">
+         <image>
+            <Image url="@stpeters.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+      <ImageView fitHeight="168.0" fitWidth="206.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="1">
+         <image>
+            <Image url="@machupichu.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="169.0" fitWidth="271.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="1">
+         <image>
+            <Image url="@valencia.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="170.0" fitWidth="277.0" pickOnBounds="true" smooth="false" GridPane.columnIndex="3" GridPane.rowIndex="1">
+         <image>
+            <Image url="@parugaiitaly.png" />
+         </image>
+      </ImageView>
+   </children>
+   <rowConstraints>
+      <RowConstraints valignment="CENTER" />
+      <RowConstraints minHeight="-Infinity" />
+   </rowConstraints>
+   <columnConstraints>
+      <ColumnConstraints halignment="CENTER" />
+      <ColumnConstraints halignment="CENTER" maxWidth="195.33331298828128" minWidth="-Infinity" prefWidth="166.00000000000003" />
+      <ColumnConstraints halignment="CENTER" maxWidth="247.3333740234375" minWidth="-Infinity" prefWidth="167.33335367838538" />
+      <ColumnConstraints halignment="CENTER" maxWidth="278.66668701171875" minWidth="-Infinity" prefWidth="277.33331298828125" />
+   </columnConstraints>
+   <padding>
+      <Insets bottom="16.0" left="16.0" right="16.0" top="16.0" />
+   </padding>
+</GridPane>
